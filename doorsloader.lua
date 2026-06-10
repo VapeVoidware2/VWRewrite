@@ -25,7 +25,7 @@ local function errorNotification(title, msgtext, dur)
     )
 end
 local function load()
-    local suc2, err2 = pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware/VW-Add/main/mspaint.lua", true))() end)
+    local suc2, err2 = pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/VapeVoidware2/VW-Add/main/mspaint.lua", true))() end)
     return {Data1 = suc2, Data2 = err2}
 end
 local data = load()
